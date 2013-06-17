@@ -1,0 +1,10 @@
+BUG:
+No specific bugs found.
+
+Special Feature:
+1. When the user input text, the scroll bar will move automatically.
+2. Gradient color in text and Background
+3. The user can distinguish themself with other users through the different text color and name color
+4. If the user doesn't generate the username, the server will generate a id for you automatically.
+5. When the user input the same name as the name in the chatroom. It will be considered as other user.
+6. The text will post instantly once after the user key in 

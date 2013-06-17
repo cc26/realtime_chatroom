@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name ="roomName" content ="{{roomName}}">
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="/public/client.js"></script>
+    <link rel="stylesheet" href="/public/room.css" type="text/css" />
+
+	<title>Room:{{roomName}}</title>
+	<body>
+		<h1>Room:{{roomName}}</h1>
+		<ul id="membersList">
+
+		</ul>
+		<button id="nickNameChange" type="button">Change Nickname!</button>
+		<div id="chats_container"></div>
+		<div id="currentTyping"></div>
+
+		<form id="messageForm">
+			<input type= "text" name ="message" id="messageField" >
+			<input type= "hidden" name="nickname" id="nicknameField" value="">
+			<input type= "submit" value="Send" id="submitbutton">
+		</form>
+
+
+		</body>
+
+</html>

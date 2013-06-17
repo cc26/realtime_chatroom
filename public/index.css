@@ -1,0 +1,89 @@
+body{
+	margin:0 auto;
+	width:700px;
+	height: 900px;
+	position: relative;
+	color:white;
+
+	overflow-y: scroll; 
+	background-color: black;
+
+
+}
+
+#welcome{
+	text-align:  center;
+	margin: 0 auto;
+	font-size: 50px;
+	font-family: Impact, Charcoal, sans-serif;
+  	background: -webkit-linear-gradient(white, gray);
+  	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+
+#rooms_container{
+	clear: both;
+	margin-left:0px;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	position:relative;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, black), color-stop(1, gray) );
+	background: -moz-linear-gradient( center top, white 10%, black 100% );
+}
+
+.single_link{
+	position:relative;
+	text-decoration: none;
+	float:left;
+	width:100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right:30px;
+	margin-left:30px;
+	display:inline-block;
+}
+
+a:link{
+	text-decoration: none;
+	color:white;
+
+}	 
+
+#create{
+	clear:both;
+	margin-top: 5px;
+	margin-right: 10px;
+	font-size: 42px;
+	font-style:italic;
+	background: -webkit-linear-gradient(white, #BBFFFF);
+  	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	float:left;
+
+}
+
+
+#addroom{
+	clear:both;
+	margin-left: 0;
+	border-radius: 5px;
+	color:silver;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, gray), color-stop(0.9, black) );
+	background: -moz-linear-gradient( center top, gray 10%, black 90% );
+	margin-top: 10px;
+	width:100px;
+	height:40px;
+	float: right;
+	border: 3px solid white;
+
+}
+#addroom:hover{
+	color:white;
+	border: 5px solid white;
+
+
+}
+
